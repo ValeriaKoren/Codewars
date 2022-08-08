@@ -1,0 +1,19 @@
+String.prototype.toJadenCase = function () {
+  var words = this.split(" ");
+  var newWord = true;
+  var res = "";
+
+  for (var i = 0; i < this.length; i++) {
+   if (newWord) {
+    res += this[i].toUpperCase();
+    newWord = false;
+   } else {
+    res += this[i];
+   }
+   if (this[i] == " ") {
+    newWord = true;
+   }
+   
+  }
+  return res;
+};
