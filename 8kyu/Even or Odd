@@ -1,0 +1,44 @@
+<script>
+
+
+var a = prompt("Введите a"); 
+var res;
+var res1;
+var res2;
+var result;
+ 
+function even_or_odd(a)
+{
+a = parseInt(a); 
+res = a%2;
+if (res==0)
+
+{
+res1=res;
+return(res1);
+}
+ 
+else
+{
+res2=res;
+return(res2);
+}
+}
+
+result = chn(a); 
+if (result == 0)
+ 
+{
+alert(a+ " - четное число");
+ 
+}
+ 
+else
+{
+alert(a+ " - нечетное число");
+}
+ 
+</script>
+
+
+https://js.do/
