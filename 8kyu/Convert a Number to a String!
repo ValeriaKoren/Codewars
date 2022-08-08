@@ -1,0 +1,4 @@
+function numberToString(num) {
+  let str = String(num);
+  return (str);
+}
