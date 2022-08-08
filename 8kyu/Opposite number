@@ -1,0 +1,4 @@
+function opposite(number) {
+  let OppositeNumber = number * (-1);
+  return (OppositeNumber)
+}
