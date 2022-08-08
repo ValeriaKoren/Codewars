@@ -1,0 +1,9 @@
+var isSquare = function(n){
+  
+  if (n >= 0) {
+    let number = Math.sqrt(n)
+    if ((number % 1 == 0) || (number == 0)) return true
+    else return false
+  }
+  else return false
+}
