@@ -1,0 +1,23 @@
+https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3/train/javascript
+
+
+
+function abbrevName(name){
+  let FirstName;
+  let LastName;
+  let count = 0;
+  
+  for (let i = 0; i < name.length; i++){
+      FirstName = name[0];
+    
+    if (count != 0){
+      LastName = name[i];
+    }
+    
+    if (name[i] == " "){
+    count += 1;
+    }
+    }
+    
+  return FirstName+'.'+LastName
+}
